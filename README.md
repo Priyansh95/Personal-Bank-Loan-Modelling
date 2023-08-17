@@ -69,11 +69,11 @@ We have 14 variables including 13 independent variables and 1 dependent variable
 - step 3 : Removing the features with negative importance
 - step 4 : tuning the hyperparameters again
 - step 5 : Model evaluation
-- **Result Achieved**
-  Accuracy	94.28%
-  Precision	72.46%
-  Recall	57.47%
-  F1-score	64.1%
-  AUC	95.74%
+- **Result Achieved** 
+  Accuracy :94.28% ;
+  Precision	:72.46% ;
+  Recall	:57.47% ;
+  F1-score	:64.1% ;
+  AUC	:95.74%
 
 
