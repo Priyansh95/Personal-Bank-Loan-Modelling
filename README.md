@@ -57,7 +57,7 @@ We have 14 variables including 13 independent variables and 1 dependent variable
 - The customer have or not have a securities account does not have any significant effect on personal loan modelling
 - The customer who use or donot use online services does not have any significant effect on personal loan modelling.
 
-## MOdel Building
+## Model Building
 - CLassifiers used Logistic regression, decision tree, random forest, Adaboost
 - Metrics used for evaluation F!_score, Accuracy, Precision, Recall, AUC
 - For Feature importance, drop column method is used
@@ -75,5 +75,47 @@ We have 14 variables including 13 independent variables and 1 dependent variable
   Recall	:57.47% ;
   F1-score	:64.1% ;
   AUC	:95.74%
+
+  ### Decision Tree classifier
+- step 1 : train test split
+- step 2 : Hyperparameter tuning
+- step 3 : Removing the features with negative importance
+- step 4 : tuning the hyperparameters again
+- step 5 : Model evaluation
+- **Result Achieved** 
+  Accuracy :98.77% ;
+  Precision	:95.18% ;
+  Recall	:90.80% ;
+  F1-score	:92.94% ;
+  AUC	:98.07%
+
+  ### Random Forest classifier
+- step 1 : train test split
+- step 2 : Hyperparameter tuning
+- step 3 : Removing the features with negative importance
+- step 4 : tuning the hyperparameters again
+- step 5 : Model evaluation
+- **Result Achieved** 
+  Accuracy :98.74% ;
+  Precision	:95.00% ;
+  Recall	:87.36% ;
+  F1-score	:91.02% ;
+  AUC	:99.79%
+
+  ### AdaBoost classifier
+- step 1 : base estimator is decision tree
+- step 2 : Hyperparameter tuning
+- step 3 : Removing the features with negative importance
+- step 4 : tuning the hyperparameters again
+- step 5 : Model evaluation
+- **Result Achieved** 
+  Accuracy :99.18% ;
+  Precision	:98.77% ;
+  Recall	:91.95% ;
+  F1-score	:95.24% ;
+  AUC	:99.88%
+
+- The AdaBoost classifier performs the best out of all these 4 models.
+
 
 
